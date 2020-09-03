@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: BASIC-ADMIN
+server:
+  port: 7070
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+  client:
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://127.0.0.1:7001/eureka/
+management:
+  security:
+    enabled: false

@@ -1,0 +1,7 @@
+eureka-client 服务注册中心 port 7001
+eureka-provide 服务发现，openFeign，hystrix，actuator， port 9090
+service 服务发现 feignClient实现接口
+    --service-01 Port7090
+    --service-02 Port7080
+cloud-admin 服务管状态，监控 基于actuator
+    --basic-admin port 7070
